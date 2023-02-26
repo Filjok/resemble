@@ -1,24 +1,45 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Navbar from './Navbar';
+import Mail from './Mail';
+import Sent from './Sent';
+import Compose from './Compose';
+import { Route,Routes } from 'react-router-dom';
+
+var database = {
+
+  0:{
+    username:'test@mail.com',
+    password:1234,
+    sentmail:{
+      0:['test123@mail.com','cc','loremmmsfsfdfasfaf']
+    },
+  }
+
+
+}
+localStorage.setItem('database',JSON.stringify(database))
+console.log(localStorage.getItem('database'))
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      
+        <Navbar />
+        <Routes>
+          <Route path='/' element = {<Mail />} />
+          <Route path='/sent' element = {<Sent />} />
+          <Route path='/draft' element = {<Mail />} />
+          <Route path='/Compose' element = {<Compose />} />
+        </Routes>
+
+        
+         
+
+      
+
+    </>
   );
 }
 

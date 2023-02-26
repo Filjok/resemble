@@ -1,0 +1,55 @@
+.Nav-vertical{
+    
+    height: 100vh;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    box-shadow: .5px .5px 15px black;
+}
+
+
+ul li{
+width: 80px;
+height:45px ;
+margin-left:-10px;
+text-align: center;
+
+}
+.Navlist-vertical{
+    list-style-type: none;
+    margin-block: 10px;
+    margin-left:-35px;
+
+}
+.link {
+    text-decoration: none;
+}
+.Nav-horizontal{
+width: 100vw;
+height: 70px;
+background-color: white;
+position: absolute;
+top: 0;
+z-index: 1;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+box-shadow: .5px .5px 15px black;
+}
+.navusername{
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+

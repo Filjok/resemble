@@ -1,0 +1,53 @@
+.composecontainer{
+    height: 80vh;
+    width: 90vw;
+    background-color: rgb(233, 228, 228);
+    position: absolute;
+    bottom:5vh;
+    right: 1vw;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+
+}
+.email{
+    height: 25px;
+    width: 300px;
+    border-radius: 5px;
+    border-style: none;
+    border-width: 1px;
+}
+.text{
+    height: 25px;
+    width: 300px;
+    border-radius: 5px;
+    border-style: none;
+    border-width: 1px;
+}
+textarea{
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    border-style: none;
+    border-width: 1px;
+}
+
+.sentbtn{
+    border-radius: 5px;
+    border-style: none;
+    border-width: 1px;
+    height: 30px;
+    width: 90px;
+    background-color: rgb(74, 74, 235);
+    color: white;
+    font-weight: 500;
+}
+input::placeholder{
+    padding-left: 10px;
+}
+
+input:focus,textarea{
+   outline: none;
+}

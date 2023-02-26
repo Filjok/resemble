@@ -1,0 +1,65 @@
+.mailcontainer{
+    height: 80vh;
+    width: 90vw;
+    background-color: rgb(233, 228, 228);
+    position: absolute;
+    bottom:5vh;
+    right: 1vw;
+    display: flex;
+    flex-direction: column;
+   /* justify-content: center; */
+   align-items: flex-start;
+
+}
+
+.mail_row{
+    margin-top: 10px;
+    width: 85vw;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    overflow: hidden;
+    
+
+
+}
+.mail_ul{
+    width: 85vw;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+
+
+}
+.mail_ul li {
+    list-style: none;
+   
+    
+}
+
+
+    
+   
+    
+
+.username{
+    width: 50px;
+    font-size: 15px;
+    font-weight: 500;
+   
+}
+.subject{
+    width: 20px;
+    margin-left: 70px;
+}
+.lorem{
+    width: 900px;
+}
+
+
