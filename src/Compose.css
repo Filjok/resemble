@@ -34,6 +34,7 @@ textarea{
     border-width: 1px;
 }
 
+
 .sentbtn{
     border-radius: 5px;
     border-style: none;
@@ -43,6 +44,8 @@ textarea{
     background-color: rgb(74, 74, 235);
     color: white;
     font-weight: 500;
+    margin-left: 20px;
+    
 }
 input::placeholder{
     padding-left: 10px;
